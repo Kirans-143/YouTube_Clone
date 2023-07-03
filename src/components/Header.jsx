@@ -54,7 +54,11 @@ const Header = () => {
           </div>
         )}
         <Link to="/" className="flex h-5 items-center">
-          <img className="h-full dark:md:block" src={ytLogo} alt="Youtube" />
+          <img
+            className="h-full hidden dark:md:block"
+            src={ytLogo}
+            alt="Youtube"
+          />
           <img className="h-full md:hidden" src={ytLogoMobile} alt="Youtube" />
         </Link>
       </div>
@@ -89,7 +93,10 @@ const Header = () => {
           </div>
         </div>
         <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-          <img src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg" />
+          <img
+            src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
